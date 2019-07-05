@@ -1,0 +1,14 @@
+Git – rozproszony system kontroli wersji. Stworzy³ go Linus Torvalds jako narzêdzie wspomagaj¹ce rozwój j¹dra Linux. Git stanowi wolne oprogramowanie i zosta³ opublikowany na licencji GNU GPL w wersji 2.
+
+Pierwsza wersja narzêdzia Git zosta³a wydana 7 kwietnia 2005 roku, by zast¹piæ poprzednio u¿ywany w rozwoju Linuksa, niebêd¹cy wolnym oprogramowaniem, system kontroli wersji BitKeeper.
+
+
+Prace nad Gitem rozpoczê³y siê po tym, jak BitKeeper, u¿ywany wtedy do rozwoju Linuksa, przesta³ byæ darmowy dla projektów o otwartym kodzie Ÿród³owym. Torvalds szuka³ rozproszonego systemu kontroli wersji, który móg³by byæ u¿yty zamiast BitKeepera, g³ównymi kryteriami wyboru by³y:
+
+Przyk³ad CVS, czego nie robiæ.
+System powinien byæ rozproszony.
+System powinien byæ chroniony przed b³êdami w repozytorium (przypadkowymi, jak awaria twardego dysku, jak i z³oœliwymi, wprowadzonymi przez kogoœ).
+System powinien byæ szybki.
+Pierwsze dwa punkty wyeliminowa³y wszystko prócz Monotone'a, a czwarty punkt wyeliminowa³ wszystko, wiêc Torvalds postanowi³ napisaæ w³asny system kontroli wersji.
+
+Prace nad Gitem rozpoczê³y siê 3 kwietnia 2005 roku, projekt zosta³ og³oszony 6 kwietnia, 7 kwietnia Git obs³ugiwa³ kontrolê wersji swojego w³asnego kodu, 18 kwietnia pierwszy raz wykonano ³¹czenie kilku ga³êzi kodu, 27 kwietnia Git zosta³ przetestowany pod wzglêdem szybkoœci z wynikiem 6,7 ³at na sekundê, a 16 czerwca Linux 2.6.12 by³ hostowany przez Gita.
